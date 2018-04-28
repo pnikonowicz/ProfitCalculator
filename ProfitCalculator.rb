@@ -12,7 +12,7 @@ end
 trade_price=gets.gsub('price','').strip.to_f
 expected_profit=choice*gets.gsub('% profit', '').strip.to_f/100
 no_of_contracts=gets.gsub('contracts', '').strip.to_f
-commission=gets.gsub('comission', '').strip.to_f
+commission=(6.95+(0.75*no_of_contracts)) * 2
 
 
 puts "expected_profit: #{expected_profit*100}%"

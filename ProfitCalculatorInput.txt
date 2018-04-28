@@ -1,5 +1,5 @@
 debit
-1.25 price
+2.21 price
 10% profit
-10 contracts
-60 commission
+2 contracts
+
